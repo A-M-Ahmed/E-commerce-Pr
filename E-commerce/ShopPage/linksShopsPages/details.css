@@ -29,8 +29,6 @@ img {
 }
 /* sytle header*/
 header {
-  /* height: 8vh; */
-  /* background:#eb5757; */
   position: sticky;
   top: 0px;
   z-index: 10;
@@ -416,6 +414,79 @@ input[type="submit"]:hover {
 }
 .logo-respon {
   display: none;
+}
+
+/* Contact Page style  */
+.contact-hero-section {
+  height: calc(93vh - 9rem);
+  background-color: #222;
+  display: flex;
+  /* Waa inaa katirta kan mesha marka dhameso  */
+  margin-bottom: 10px; 
+  position: relative;
+
+}
+.contact-ac {
+  height: inherit;
+  padding-block: 2rem;
+}
+.contact-ac .contecth2 {
+  font-weight: 700;
+  color: #f9f9f9;
+  font-size: 2.375rem;
+  line-height: 2.75rem;
+  position: absolute;
+  top: 50px;
+
+
+}
+.contact-acme {
+  height: inherit;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.25rem;
+}
+.contact-acme .contact-us {
+  text-align: center;
+  background-color: #f9f9f9;
+  width: 21.875rem;
+  height: 21.875rem;
+  border-radius: 0.4rem;
+  padding: 2.5rem;
+  position: relative;
+  z-index: 1;
+  
+}
+.contact-us h2 {
+  color: #222;
+  padding: 2rem 0 0.6rem;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.contact-us p {
+  font-weight: 400;
+  color: #222222;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+.contact-us .send-btn {
+  text-decoration: none;
+  background-color: #eb5757;
+  padding: 8px 25px;
+  color: #f9f9f9;
+  border-radius: 0.3125rem;
+  font-weight: 700;
+  font-size: 1rem;
+  /* margin-top: 80px; */
+}
+.img-contact-hero {
+  background:linear-gradient(to right, #222, rgba(34, 34, 34, 0.18) 75%),url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e84f1e1f02ef1408ff221cc_vinicius-amano-4mK2KVuYrDs-unsplash%20(1)%20(1).jpg")center / cover no-repeat;
+  height: inherit;
+  width: 40.625rem;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 @media (max-width: 768px) {
